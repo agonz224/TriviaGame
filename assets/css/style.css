@@ -1,0 +1,78 @@
+html {
+	background-color: white;
+}
+
+body {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/f/f6/James's_Flamingo_mating_ritual.jpg");
+	background-color: #white;
+	height: 1000px;
+	width: 1000px;
+	margin: auto;
+}
+
+.container {
+	background-color: #white;
+	opacity: 1;
+	width: 900px;
+	margin: auto;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	font-family: 'Fascinate Inline', cursive;
+	color: white;
+	font-size: 80px;
+}
+
+h2 {
+	
+	text-align: center;
+	font-family: 'Fascinate Inline', cursive;
+	color: gray;
+	font-size: 40px;
+}
+
+.start 
+{
+position: relative;
+width: 180px;
+height: 135px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 41px;
+-moz-border-radius: 41px;
+border-radius: 41px;
+border: #69627F solid 16px;
+top: 180px;
+left: 300px;
+opacity: 0.5;
+}
+
+.start:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 8px 61px 8px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -61px;
+top: 75px;
+}
+
+.start:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 23px 76px 23px 0;
+border-color: transparent #69627F;
+display: block;
+width: 0;
+z-index: 0;
+left: -92px;
+top: 60px;
+}
